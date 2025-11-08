@@ -2,7 +2,9 @@
 
 This is the official implementation of the following paper:
 
-Dual Mamba for Node-Specific Representation Learning: Tackling Over-Smoothing with Selective State Space Modeling
+> [Dual Mamba for Node-Specific Representation Learning: Tackling Over-Smoothing with Selective State Space Modeling]
+> 
+> Accepted by AAAI 2026
 
 <div align="center">
   <img src="https://github.com/hexin5515/DMbaGCN/blob/main/Image/DMbaGCN.jpg" width="1600px"/>
