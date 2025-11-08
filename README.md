@@ -16,8 +16,6 @@ Dual Mamba for Node-Specific Representation Learning: Tackling Over-Smoothing wi
 * torch_geometric>=2.5.2
 * python>=3.8
 * scikit-learn>=1.4.1
-* networkx>=2.7
-* rdkit>=2024.3.2
 
 ## Quick Start
 
