@@ -1,0 +1,11 @@
+python training.py --dataset Pubmed --d_model 256 --d_inner 256 --dt_rank 256 --d_state 1 --mamba_dropout 0.7 --alpha 0.1 --graph_weight 0.4 --layer_num 3 --lr 0.005 --weight_decay 1e-2 --net GCN_mamba_Net_New --runs 10       0.02
+
+python training.py --dataset Photo --d_model 64 --d_inner 64 --dt_rank 32 --d_state 1 --mamba_dropout 0.2 --alpha 0.9 --graph_weight 0.3 --layer_num 5 --lr 0.005 --weight_decay 5e-3 --bias --net GCN_mamba_Net_New --runs 10    0.
+
+python training.py --dataset Computers --d_model 128 --d_inner 128 --dt_rank 128 --d_state 1 --mamba_dropout 0.8 --alpha 0.6 --graph_weight 0.6 --layer_num 3 --lr 0.005 --weight_decay 5e-5 --net GCN_mamba_Net_New --runs 10    0.2
+
+python training.py --dataset Corafull --d_model 512 --d_inner 512 --dt_rank 64 --d_state 1 --mamba_dropout 0.2 --alpha 0.9 --graph_weight 0.8 --layer_num 3 --lr 0.005 --weight_decay 0. --net GCN_mamba_Net_New --runs 10        0.02
+
+python training.py --dataset CS --d_model 256 --d_inner 256 --dt_rank 64 --d_state 1 --mamba_dropout 0.5 --alpha 0.5 --graph_weight 0.8 --layer_num 3 --lr 0.005 --weight_decay 5e-3 --bias --net GCN_mamba_Net_New --runs 10     0.1
+
+python training.py --dataset Physics --d_model 256 --d_inner 256 --dt_rank 64 --d_state 1 --mamba_dropout 0.5 --alpha 0.5 --graph_weight 0.8 --layer_num 3 --lr 0.005 --weight_decay 5e-3 --bias --net GCN_mamba_Net_New --runs 10
