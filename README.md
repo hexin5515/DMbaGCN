@@ -5,7 +5,7 @@ This is the official implementation of the following paper:
 Dual Mamba for Node-Specific Representation Learning: Tackling Over-Smoothing with Selective State Space Modeling
 
 <div align="center">
-  <img src="https://github.com/hexin5515/MbaGCN/blob/main/Image/MbaGCN.jpg" width="1600px"/>
+  <img src="https://github.com/hexin5515/DMbaGCN/blob/main/Image/DMbaGCN.jpg" width="1600px"/>
 </div>
 
 ## Environment Setup
