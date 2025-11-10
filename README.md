@@ -30,4 +30,6 @@ The main experiments:
 cd NodeClassification/
 
 python training.py --dataset Corafull --d_model 512 --d_inner 512 --dt_rank 64 --d_state 1 --mamba_dropout 0.2 --alpha 0.9 --graph_weight 0.8 --layer_num 3 --lr 0.005 --weight_decay 0. --net GCN_mamba_Net --runs 10
+
+Note: The dataset will be automatically downloaded when the code is executed
 ```
