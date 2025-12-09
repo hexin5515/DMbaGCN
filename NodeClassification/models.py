@@ -230,7 +230,7 @@ class GCN_mamba_Net(torch.nn.Module):
         self.LayerNorm_2 = torch.nn.LayerNorm(self.args.d_model, eps=1e-12)
         self.bn_1 = torch.nn.BatchNorm1d(args.d_model)
         self.layer_num = args.layer_num
-        self.mamba = GCN_mamba_block_New(args, dataset)
+        self.mamba = GCN_mamba_block(args, dataset)
         self.norm_1 = RMSNorm(args.d_model)
         self.bn_2 = torch.nn.BatchNorm1d(args.d_model)
         self.lin2 = GCN_mamba_liner(args.d_model, dataset.num_classes, with_bias=args.bias)
