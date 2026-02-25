@@ -33,3 +33,14 @@ python training.py --dataset Corafull --d_model 512 --d_inner 512 --dt_rank 64 -
 
 ```
 Note: The dataset will be automatically downloaded when the code is executed
+
+## Citation
+If you find our repository useful for your research, please consider citing our paper:
+```
+@article{he2025dual,
+  title={Dual Mamba for Node-Specific Representation Learning: Tackling Over-Smoothing with Selective State Space Modeling},
+  author={He, Xin and Wang, Yili and Dai, Yiwei and Wang, Xin},
+  journal={arXiv preprint arXiv:2511.06756},
+  year={2025}
+}
+```
